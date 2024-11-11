@@ -1,0 +1,152 @@
+#Login .row {
+    background-color: var(--gray);
+    border-radius: var(--_15px);
+}
+
+#Login .row .formeImg {
+    background-image: url("/images/access/squerLine.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Login .row .LoginBudy {
+    width: 74.5%;
+}
+
+#Login .row .LoginBudy .FORMhED .F1 {
+    font-size: calc(100% + 1.8vw + 1.8vh);
+    background: linear-gradient(to right, var(--lemon), var(--white));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#Login .row .LoginBudy .FORMhED .F4 {
+    font-size: calc(100% + .01rem + .01rem - .12rem);
+}
+
+#Login .row .LoginBudy input {
+    all: unset;
+    background-color: var(--dark-white);
+    border-radius: var(--_5px);
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: WorkSans-S;
+}
+
+#Login .row .LoginBudy .inputContant {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: .8rem;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: var(--black);
+    transform: translate(-5%, -50%);
+    transition: .2s all;
+    cursor: text;
+}
+
+#Login .row .LoginBudy .inputContant .FiUser {
+    font-size: 1.2rem;
+}
+
+#Login .row .LoginBudy input:hover+.inputContant,
+#Login .row .LoginBudy input:focus+.inputContant {
+    opacity: 0;
+}
+
+#Login .row .LoginBudy .inputContant:hover,
+#Login .row .LoginBudy .inputContant:focus {
+    display: none;
+}
+
+#Login .row .LoginBudy .buttonInputComponant {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lemon);
+    border-radius: var(--_5px);
+    border: 2px solid var(--lemon);
+    transition: .2s;
+}
+
+#Login .row .LoginBudy .buttonInputComponant span {
+    all: unset;
+    font-weight: 750;
+    font-size: .8rem;
+}
+
+#Login .row .LoginBudy .hrStyle {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#Login .row .LoginBudy .hrStyle a {
+    all: unset;
+    cursor: pointer;
+    color: var(--lemon);
+}
+
+#Login .row .LoginBudy .hrStyle a>span {
+    color: var(--lemon);
+}
+
+#Login .row .LoginBudy .hrStyle::before,
+#Login .row .LoginBudy .hrStyle::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid var(--dark-white);
+}
+
+#Login .row .LoginBudy .hrStyle:not(:empty)::before {
+    margin-right: 1px;
+}
+
+#Login .row .LoginBudy .hrStyle:not(:empty)::after {
+    margin-left: 1px;
+}
+
+#Login .row .LoginBudy .sochialButtonComponant {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--dark-white);
+    border-radius: var(--_5px);
+    transition: .2s all;
+}
+
+#Login .row .LoginBudy .sochialButtonComponant .sochialIcon {
+    font-size: 1.3rem;
+    color: var(--lemon);
+}
+
+#Login .row .LoginBudy .sochialButtonComponant .sochialButtonComponantTitle {
+    color: var(--dark-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+}
+
+#Login .row .LoginBudy .sochialButtonComponant:hover,
+#Login .row .LoginBudy .sochialButtonComponant:focus {
+    background-color: var(--lemon);
+    border: 2px solid var(--lemon);
+}
+
+#Login .row .LoginBudy .sochialButtonComponant:hover .sochialIcon,
+#Login .row .LoginBudy .sochialButtonComponant:focus .sochialIcon {
+    color: var(--black);
+}
+
+#Login .row .LoginBudy .sochialButtonComponant:hover .sochialButtonComponantTitle>span,
+#Login .row .LoginBudy .sochialButtonComponant:focus .sochialButtonComponantTitle>span {
+    color: var(--black) !important;
+}

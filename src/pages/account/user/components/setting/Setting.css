@@ -1,0 +1,254 @@
+/* ------------------
+# Setting Nave
+--------------------- */
+#Setting .SettingtNave {
+    margin-bottom: .7rem;
+}
+
+#Setting .SettingtNave .LeftIcon {
+    width: 27px;
+    height: 26px;
+    border-radius: var(--_5px);
+    border: 2px solid var(--white);
+    background-color: var(--gray);
+    font-size: .9rem;
+    color: var(--lemon);
+    opacity: .9;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+#Setting .SettingtNave .LeftIcon:hover {
+    color: var(--black);
+    border: 2px solid var(--lemon);
+    background-color: var(--lemon);
+}
+
+#Setting .SettingtNave span {
+    font-size: calc(100% + .11vw + .11vh);
+    color: var(--white);
+    text-transform: capitalize;
+    font-family: WorkSans-S;
+}
+
+#Setting .SettingtNave .settingIcon {
+    font-size: calc(100% + .15vw + .15vh);
+    color: var(--lemon);
+}
+
+/* ------------------
+# setting Body Componant
+--------------------- */
+#Setting .settingBodyComponant {
+    margin-bottom: 2px;
+    background-color: var(--gray);
+}
+
+#Setting .settingBodyComponant .imageSection .Lgimg,
+#Setting .settingBodyComponant .imageSection .smimg {
+    border-radius: var(--_15px);
+    border: 3px solid var(--dark-gray);
+    overflow: hidden;
+    background-color: var(--dark-gray);
+}
+
+#Setting .settingBodyComponant .imageSection .Lgimg {
+    width: 123px;
+    height: 123px;
+}
+
+#Setting .settingBodyComponant .imageSection .smimg {
+    width: 110px;
+    height: 110px;
+}
+
+#Setting .settingBodyComponant .imageSection .imgLyre {
+    width: 100%;
+    height: 60%;
+    color: var(--lemon);
+    background-color: rgba(0, 0, 0, 0.407);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 var(--_15px) var(--_15px);
+    font-size: 1.6rem;
+    opacity: .7;
+    cursor: pointer;
+    transition: .2s all;
+}
+
+#Setting .settingBodyComponant .imageSection .imgLyre:hover {
+    opacity: 1;
+}
+
+/* --------------form Section */
+
+#Setting .settingBodyComponant .formSection input {
+    all: unset;
+    border: 1px solid #606060;
+    border-radius: var(--_5px);
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: WorkSans-M;
+}
+
+#Setting .settingBodyComponant .formSection .collectionCustomComponant {
+    position: relative;
+}
+
+#Setting .settingBodyComponant .formSection .IoChevronDown {
+    color: var(--white);
+    position: absolute;
+    top: 80%;
+    right: 2.5%;
+    transform: translate(-2.5%, -80%);
+    cursor: pointer;
+}
+
+#Setting .settingBodyComponant .formSection .collectionCustomComponantinput {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #606060;
+    border-radius: var(--_5px);
+    font-family: WorkSans-M;
+    cursor: pointer;
+    color: var(--lemon);
+    font-size: 1.2rem;
+}
+
+#Setting .settingBodyComponant .formSection .collectionCustomComponant .itemsMenu {
+    height: 198px;
+    overflow: scroll;
+    background-color: var(--dark-gray);
+    border: 1px solid #606060;
+    border-radius: var(--_5px);
+    display: none;
+    position: absolute;
+    right: 0;
+    transform: translate(0, 0);
+    margin-top: 15px;
+    z-index: 3;
+}
+
+#Setting .settingBodyComponant .formSection .collectionCustomComponant .triangle-up {
+    display: none;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 8px solid #606060;
+    position: absolute;
+    bottom: 0;
+    right: 2.2%;
+    transform: translate(0, -2.2%);
+    margin-bottom: -15px;
+    box-sizing: border-box;
+}
+
+#Setting .settingBodyComponant .formSection .collectionCustomComponant .triangle-up.show {
+    display: block;
+}
+
+#Setting .settingBodyComponant .formSection .collectionCustomComponant .itemsMenu.show {
+    display: block;
+}
+
+#Setting .settingBodyComponant .formSection .collectionCustomComponant .itemsMenu ul {
+    list-style: none;
+}
+
+#Setting .settingBodyComponant .formSection .collectionCustomComponant .itemsMenu ul li {
+    width: 100%;
+    background-color: var(--gray);
+    border: 1px solid #606060;
+    border-radius: var(--_5px);
+    font-family: WorkSans-M;
+    color: var(--white);
+}
+
+#Setting .settingBodyComponant .formSection .collectionCustomComponant .itemsMenu ul li .inbutIcon {
+    width: 37px;
+    height: 35px;
+    background-color: var(--dark-gray);
+    border-radius: var(--_5px);
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+#Setting .settingBodyComponant .formSection .collectionCustomComponant .itemsMenu ul li input {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 7px;
+    font-size: .9rem;
+}
+
+#Setting .settingBodyComponant .formSection .collectionCustomComponantinput:hover,
+#Setting .settingBodyComponant .formSection .collectionCustomComponantinput:focus {
+    border: 1px solid #606060;
+}
+
+#Setting .settingBodyComponant .formSection textarea {
+    height: 150px;
+    border: 1px solid #606060;
+    border-radius: var(--_5px);
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: WorkSans-M;
+    background: none;
+    resize: none;
+}
+
+#Setting .settingBodyComponant .formSection textarea:focus,
+#Setting .settingBodyComponant .formSection input:focus {
+    outline: none;
+    border: 1px solid #929292;
+}
+
+#Setting .settingBodyComponant .formSection span {
+    color: var(--white);
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: .9rem;
+    opacity: .7;
+}
+
+#Setting .settingBodyComponant .formSection .doneButton {
+    font-size: .9rem;
+    text-transform: capitalize;
+    font-family: WorkSans-S;
+    cursor: pointer;
+    border-radius: var(--_10px);
+    background-color: var(--lemon);
+    opacity: .6;
+    box-sizing: border-box;
+}
+
+#Setting .settingBodyComponant .formSection a {
+    all: unset;
+}
+
+#Setting .settingBodyComponant .formSection .doneButton.active {
+    opacity: 1;
+}
+
+#Setting .settingBodyComponant .formSection .logOutButton {
+    font-size: .9rem;
+    text-transform: capitalize;
+    font-family: WorkSans-S;
+    cursor: pointer;
+    border-radius: var(--_10px);
+    border: 2px solid var(--lemon);
+    color: var(--white);
+    box-sizing: border-box;
+
+}
+
+#Setting .settingBodyComponant .formSection a {
+    all: unset;
+}
+
+#Setting .settingBodyComponant .formSection .logOutButton .logOutIcon {
+    font-size: 1.1rem;
+    color: var(--lemon);
+    transform: rotate(180deg);
+}

@@ -1,0 +1,55 @@
+#TCo .F2 {
+    font-size: 1.7rem;
+}
+
+#TCo .userinfo {
+    all: unset;
+    cursor: pointer;
+}
+
+#TCo .owl-theme .owl-controls .owl-buttons div {
+    display: none;
+}
+
+#TCo .owl-theme .owl-controls .owl-page {
+    display: none;
+}
+
+#TCo #owl-demo {
+    -ms-touch-action: auto;
+    touch-action: auto;
+}
+
+#TCo #owl-demo .item {
+    margin: 9px;
+}
+
+#TCo #owl-demo .item .row {
+    margin: 0rem .01rem;
+
+}
+
+#TCo #owl-demo .item img {
+    border-radius: var(--_20px);
+}
+
+#TCo #owl-demo .item .collectionNum {
+    font-size: 1.2rem;
+    color: var(--black);
+    background-color: var(--lemon);
+    border-radius: var(--_20px);
+    cursor: pointer;
+    transition: .4s all;
+}
+
+#TCo #owl-demo .item .collectionNum:hover {
+    transform: scale(.9);
+}
+
+#TCo #owl-demo .item .F3 {
+    font-size: 1.2rem;
+}
+
+#TCo #owl-demo .item .F4 {
+    font-size: .8rem;
+}

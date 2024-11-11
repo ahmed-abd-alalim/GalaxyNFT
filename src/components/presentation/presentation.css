@@ -1,0 +1,121 @@
+/* ######################
+-> presentation 
+######################### */
+#presentation {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 19;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+/* ######################
+-> presentation Body
+######################### */
+#presentation .presentationBody {
+    position: relative;
+    width: 19rem;
+    height: 15rem;
+    background-color: var(--gray);
+    border-radius: var(--_10px);
+    animation: outToIn .5s ease;
+}
+
+@keyframes outToIn {
+    from {
+        opacity: .4;
+        transform: scale(.6);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* --------------closeIcon */
+#presentation .presentationBody .closeIcon {
+    position: absolute;
+    top: 1%;
+    right: 3%;
+    transform: translate(-3%, -1%);
+    color: var(--lemon);
+    font-size: 1.3rem;
+    transition: .4s all;
+}
+
+#presentation .presentationBody .closeIcon * {
+    cursor: pointer;
+}
+
+/* --------------ownerImg */
+#presentation .presentationBody .ownerImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--gray);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: -60px;
+    border: 4px solid var(--gray);
+    overflow: hidden;
+}
+
+/* --------------moverBotton */
+#presentation .presentationBody .moverButton {
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+    transform: translate(-2%, 0);
+    margin-bottom: -35px;
+}
+
+#presentation .presentationBody .moverButton .moverIcon {
+    width: 30px;
+    height: 30px;
+    color: var(--black);
+    background-color: var(--lemon);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* --------------presentationWords */
+#presentation .presentationBody .presentationWords {
+    color: var(--white);
+    font-family: WorkSans-S;
+    text-align: center;
+}
+
+#presentation .presentationBody .presentationWords .prWords {
+    font-size: 1rem;
+}
+
+
+@keyframes outToInWords {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#presentation .presentationBody .presentationWords .prWords.bold {
+    font-size: 1.4rem;
+}
+
+#presentation .presentationBody .presentationWords .prWords .socialIcon {
+    all: unset;
+    width: 38px;
+    height: 38px;
+    color: var(--dark-white);
+    background-color: var(--dark-gray);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,201 @@
+/* ####################
+-> product Data
+####################### */
+#product .productData {
+    background-color: var(--gray);
+    border-radius: var(--_10px);
+}
+
+/* -----------------product Img
+ */
+
+#product .productData .productImg img {
+    border-radius: var(--_10px);
+}
+
+/* -----------------product Info
+ */
+
+#product .productData .productInfo .postName {
+    color: var(--white);
+    font-family: WorkSans-M;
+    font-size: 1.5rem;
+}
+
+#product .productData .productInfo .postDescription {
+    color: var(--white);
+    font-family: WorkSans-R;
+    font-size: .85rem;
+    opacity: .7;
+}
+
+#product .productData .productInfo>hr {
+    color: var(--white);
+}
+
+#product .productData .userInfo {
+    width: 12rem;
+    border: 1px solid rgb(108, 108, 108);
+    text-decoration: none;
+    border-radius: var(--_5px);
+    padding: 0px 0px 4px 0px;
+    cursor: pointer;
+}
+
+#product .productData .userInfo img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+#product .productData .userInfo .createrTitle {
+    color: var(--white);
+    opacity: .5;
+    font-size: .7rem;
+    font-family: SpaceMono-R;
+}
+
+#product .productData .userInfo .userName {
+    color: var(--white);
+    font-family: WorkSans-R;
+    opacity: .9;
+    font-size: .9rem;
+}
+
+#product .productData .price .priceTitle {
+    color: var(--white);
+    opacity: .5;
+    font-size: .8rem;
+    font-family: SpaceMono-R;
+}
+
+#product .productData .price .ethValue {
+    color: var(--white);
+    font-size: 1.2rem;
+    font-family: WorkSans-M;
+}
+
+#product .productData .price .usdValue {
+    color: var(--white);
+    font-size: .8rem;
+    opacity: .8;
+    font-family: WorkSans-R;
+}
+
+#product .productData .buttonSection .btnOutLine,
+#product .productData .buttonSection .btnPold {
+    font-family: WorkSans-S;
+    border-radius: var(--_10px);
+    cursor: pointer;
+}
+
+#product .productData .buttonSection .btnOutLine {
+    border: 2px solid var(--lemon);
+    color: var(--white);
+}
+
+#product .productData .buttonSection .btnPold {
+    background-color: var(--lemon);
+    color: var(--black);
+}
+
+
+/* #####################
+-> product For You
+######################## */
+#product .productForYou .Suggested {
+    color: var(--white);
+    font-family: Rubik-B;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+#product .productForYou .Suggested hr {
+    color: var(--white);
+    width: 98%;
+}
+
+#owlCreator,
+#owlProduct {
+    -ms-touch-action: auto;
+    touch-action: auto;
+}
+
+#product .owl-theme .owl-controls {
+    margin: 0;
+}
+
+#product .owl-theme .owl-controls .owl-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#product .owl-theme .owl-controls .owl-buttons div {
+    width: 40px;
+    height: 40px;
+    color: var(--black);
+    background: var(--lemon);
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#product .owl-theme .owl-controls .owl-buttons div i {
+    font-size: 1.6rem;
+}
+
+#product .owl-theme .owl-controls .owl-page span {
+    display: none;
+}
+
+#owlCreator .item,
+#owlProduct .item {
+    margin: 10px;
+}
+
+#product .productForYou .card * {
+    text-decoration: none;
+}
+
+#product .productForYou .card {
+    background-color: var(--gray);
+    border-radius: var(--_20px);
+    overflow: hidden;
+}
+
+#product .productForYou .card .CrdTools {
+    position: relative;
+    overflow: hidden;
+}
+
+#product .productForYou .card .card-text {
+    font-size: 1.2rem;
+}
+
+#product .productForYou .card .userinfo {
+    all: unset;
+    cursor: pointer;
+}
+
+#product .productForYou .card .userinfo img {
+    border-radius: var(--_50px);
+}
+
+#product .productForYou .card .userinfo .F4 {
+    font-size: .9rem;
+    opacity: .9;
+}
+
+#product .productForYou .card .prodictInfo .F4 {
+    font-size: .8rem;
+    opacity: .4;
+}
+
+#product .productForYou .card .prodictInfo .F3 {
+    opacity: .9;
+    font-size: .9rem;
+}

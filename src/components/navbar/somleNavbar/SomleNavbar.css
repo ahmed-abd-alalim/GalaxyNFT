@@ -1,0 +1,123 @@
+#SNav .navetop {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: var(--dark-gray);
+}
+
+#SNav .IoMenu {
+    font-size: 1.7rem;
+    color: var(--lemon);
+    cursor: pointer;
+}
+
+#Smenu {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(1px);
+    z-index: 8;
+}
+
+#Menu {
+    width: 100%;
+    border-top: 1px solid var(--lemon);
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50.2%, 81%);
+    background-color: var(--gray);
+    transition: .5s;
+    z-index: 9;
+}
+
+#Menu .colseMenu {
+    width: 30px;
+    height: 30px;
+    background-color: var(--lemon);
+    border-radius: 50%;
+
+}
+
+#Menu .colseMenu .IoAdd,
+#Menu .colseMenu .IoClose {
+    font-size: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+#Menu .colseMenu .IoClose {
+    transform: rotate(43deg);
+    animation: rotateBotton .8s ease;
+}
+
+@keyframes rotateBotton {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(43deg);
+    }
+}
+
+#Menu .parIcon {
+    font-size: 1.65rem;
+    color: var(--white);
+    cursor: pointer;
+}
+
+
+#Menu .userAvatar {
+    width: 32px;
+}
+
+#Menu .userAvatar img {
+    border-radius: 50%;
+    border: 2px solid var(--dark-white);
+}
+
+#Menu .menuBar a:hover .parIcon,
+#Menu .menuBar a.active .parIcon {
+    color: var(--lemon);
+}
+
+#Menu .menuBar a.active .userAvatar img {
+    border: 2px solid var(--lemon);
+}
+
+
+#Menu .naveBarLink a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--lemon);
+    border: var(--btn-border);
+    border-radius: var(--_5px);
+    font-family: WorkSans-S;
+}
+
+#Menu .naveBarLink a span {
+    font-size: .7rem;
+}
+
+#Menu .naveBarLink a:hover,
+#Menu .naveBarLink a.active {
+    color: var(--white);
+    background-color: var(--dark-gray);
+}
+
+#Menu hr {
+    color: var(--dark-white);
+}
+
+#Menu p {
+    font-size: .7rem;
+    opacity: .8;
+    text-transform: capitalize;
+}

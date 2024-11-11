@@ -1,0 +1,191 @@
+#AddNFT .F2 {
+    font-size: 1.7rem;
+}
+
+
+#AddNFT .uploadComponant {
+    cursor: pointer;
+    background-color: var(--gray);
+    border-radius: var(--_10px);
+}
+
+#AddNFT .headLine {
+    font-size: 1.3rem;
+    color: var(--white);
+    text-transform: capitalize;
+    border-bottom: 2px solid var(--white);
+}
+
+#AddNFT .uploadComponant .col-12 {
+    position: relative;
+    border-radius: var(--_5px);
+    border: 2px dashed var(--lemon);
+    background: linear-gradient(to left, var(--lemon), var(--white));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#AddNFT .uploadComponant .col-12 .addLyer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    transition: .5s all;
+    background-color: rgba(0, 0, 0, 0.408);
+    color: var(--lemon);
+    opacity: 0;
+    border-radius: var(--_5px);
+}
+
+#AddNFT .uploadComponant:hover .col-12 .addLyer {
+    opacity: 1;
+}
+
+#AddNFT .uploadComponant .col-12 .foldeIcon {
+    font-size: 2rem;
+}
+
+#AddNFT .uploadComponant .col-12 span {
+    font-size: calc(100% - .1vw - .4vh);
+}
+
+#AddNFT .itemInforamation input {
+    all: unset;
+    border: 1px solid #606060;
+    border-radius: var(--_5px);
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: WorkSans-M;
+}
+
+#AddNFT .itemInforamation .collectionCustomComponant {
+    position: relative;
+}
+
+#AddNFT .itemInforamation .IoChevronDown {
+    color: var(--white);
+    position: absolute;
+    top: 80%;
+    right: 2.5%;
+    transform: translate(-2.5%, -80%);
+    cursor: pointer;
+}
+
+#AddNFT .itemInforamation .collectionCustomComponantinput {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #606060;
+    border-radius: var(--_5px);
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: WorkSans-M;
+    cursor: pointer;
+}
+
+#AddNFT .itemInforamation .collectionCustomComponant .itemsMenu {
+    background-color: var(--dark-gray);
+    border: 1px solid #606060;
+    border-radius: var(--_5px);
+    display: none;
+    position: absolute;
+    right: 0;
+    transform: translate(0, 0);
+    margin-top: 15px;
+    z-index: 3;
+}
+
+#AddNFT .itemInforamation .collectionCustomComponant .itemsMenu .triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 8px solid #606060;
+    position: absolute;
+    top: 0;
+    right: 2.2%;
+    transform: translate(0, -2.2%);
+    margin-top: -8px;
+    box-sizing: border-box;
+}
+
+#AddNFT .itemInforamation .collectionCustomComponant .itemsMenu.show {
+    display: block;
+}
+
+#AddNFT .itemInforamation .collectionCustomComponant .itemsMenu ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#AddNFT .itemInforamation .collectionCustomComponant .itemsMenu ul li {
+    margin: 4px;
+    background-color: var(--gray);
+    border: 1px solid #606060;
+    border-radius: var(--_5px);
+    font-family: WorkSans-M;
+    cursor: pointer;
+    color: var(--white);
+    font-size: .8rem;
+    text-align: center;
+}
+
+#AddNFT .itemInforamation .collectionCustomComponant .itemsMenu ul li:hover {
+    opacity: .8;
+}
+
+#AddNFT .itemInforamation .collectionCustomComponantinput:hover,
+#AddNFT .itemInforamation .collectionCustomComponantinput:focus {
+    border: 1px solid #606060;
+}
+
+#AddNFT .itemInforamation textarea {
+    height: 150px;
+    border: 1px solid #606060;
+    border-radius: var(--_5px);
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: WorkSans-M;
+    background: none;
+    resize: none;
+}
+
+#AddNFT .itemInforamation textarea:focus,
+#AddNFT .itemInforamation input:focus {
+    outline: none;
+    border: 1px solid #929292;
+}
+
+#AddNFT .itemInforamation span {
+    color: var(--white);
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: .9rem;
+    opacity: .7;
+}
+
+#AddNFT .itemInforamation .doneButton {
+    font-size: .9rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: WorkSans-S;
+    cursor: pointer;
+    border-radius: var(--_10px);
+    background-color: var(--lemon);
+    opacity: .6;
+}
+
+#AddNFT .itemInforamation a {
+    all: unset;
+}
+
+#AddNFT .itemInforamation .doneButton.active {
+    opacity: 1;
+}

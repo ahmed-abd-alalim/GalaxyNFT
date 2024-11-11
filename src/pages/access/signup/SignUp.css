@@ -1,0 +1,236 @@
+#SignUp .row {
+    background-color: var(--gray);
+    border-radius: var(--_15px);
+}
+
+#SignUp .row .formeImg {
+    background-image: url("/images/access/squerLine.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#SignUp .row .signupBudy {
+    width: 74.5%;
+}
+
+#SignUp .row .signupBudy .FORMhED .F1 {
+    font-size: calc(100% + 1.8vw + 1.8vh);
+    background: linear-gradient(to right, var(--lemon), var(--white));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#SignUp .row .signupBudy .FORMhED .F4 {
+    font-size: calc(100% + .01rem + .01rem - .12rem);
+}
+
+#SignUp .row .signupBudy input {
+    all: unset;
+    background-color: var(--dark-white);
+    border-radius: var(--_5px);
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: WorkSans-S;
+}
+
+#SignUp .row .signupBudy .inputContant {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: .8rem;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: var(--black);
+    transform: translate(-5%, -50%);
+    transition: .2s all;
+    cursor: text;
+}
+
+#SignUp .row .signupBudy .inputContant .FiUser {
+    font-size: 1.2rem;
+}
+
+#SignUp .row .signupBudy input:hover+.inputContant,
+#SignUp .row .signupBudy input:focus+.inputContant {
+    opacity: 0;
+}
+
+#SignUp .row .signupBudy .inputContant:hover,
+#SignUp .row .signupBudy .inputContant:focus {
+    display: none;
+}
+
+#SignUp .row .signupBudy .buttonInputComponant {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lemon);
+    border-radius: var(--_5px);
+    border: 2px solid var(--lemon);
+    transition: .2s;
+}
+
+#SignUp .row .signupBudy .NotActive {
+    opacity: .6;
+}
+
+#SignUp .row .signupBudy .Active {
+    opacity: 1;
+
+}
+
+#SignUp .row .signupBudy .buttonInputComponant span {
+    all: unset;
+    font-weight: 750;
+    font-size: .8rem;
+}
+
+#SignUp .row .signupBudy .hrStyle {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#SignUp .row .signupBudy .hrStyle a {
+    all: unset;
+    cursor: pointer;
+    color: var(--lemon);
+}
+
+#SignUp .row .signupBudy .hrStyle a>span {
+    color: var(--lemon);
+}
+
+#SignUp .row .signupBudy .hrStyle::before,
+#SignUp .row .signupBudy .hrStyle::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid var(--dark-white);
+}
+
+#SignUp .row .signupBudy .hrStyle:not(:empty)::before {
+    margin-right: 1px;
+}
+
+#SignUp .row .signupBudy .hrStyle:not(:empty)::after {
+    margin-left: 1px;
+}
+
+#SignUp .row .signupBudy .sochialButtonComponant {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--dark-white);
+    border-radius: var(--_5px);
+    transition: .2s all;
+}
+
+#SignUp .row .signupBudy .sochialButtonComponant .sochialIcon {
+    font-size: 1.3rem;
+    color: var(--lemon);
+}
+
+#SignUp .row .signupBudy .sochialButtonComponant .sochialButtonComponantTitle {
+    color: var(--dark-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+}
+
+#SignUp .row .signupBudy .sochialButtonComponant:hover,
+#SignUp .row .signupBudy .sochialButtonComponant:focus {
+    background-color: var(--lemon);
+    border: 2px solid var(--lemon);
+}
+
+#SignUp .row .signupBudy .sochialButtonComponant:hover .sochialIcon,
+#SignUp .row .signupBudy .sochialButtonComponant:focus .sochialIcon {
+    color: var(--black);
+}
+
+#SignUp .row .signupBudy .sochialButtonComponant:hover .sochialButtonComponantTitle>span,
+#SignUp .row .signupBudy .sochialButtonComponant:focus .sochialButtonComponantTitle>span {
+    color: var(--black) !important;
+}
+
+#SignUp .row .signupBudy .towState .F3 {
+    font-size: calc(100% + .4vw + .4vh);
+}
+
+#SignUp .row .signupBudy .towState img {
+    border-radius: 50%;
+    border: 3px solid var(--gray);
+    cursor: pointer;
+}
+
+#SignUp .row .signupBudy .towState img.active {
+    border: 3px solid var(--lemon);
+    filter: blur(.5px) brightness(.9);
+}
+
+#SignUp .row .signupBudy form .F3 {
+    font-size: calc(100% + .4vw + .4vh);
+}
+
+/* ########################## */
+
+
+#SignUp .progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+#SignUp .progress-container::before {
+    content: '';
+    background-color: var(--dark-gray);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    z-index: 1;
+}
+
+#SignUp .progress {
+    background-color: var(--lemon);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 0%;
+    z-index: 2;
+    transition: 0.4s ease;
+}
+
+#SignUp .circle {
+    background-color: var(--dark-gray);
+    color: var(--white);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--dark-white);
+    transition: .6s ease;
+    z-index: 3;
+    font-size: 1.1rem;
+}
+
+#SignUp .circle.ProgressStepsActive {
+    border-color: var(--lemon);
+    background-color: var(--dark-gray);
+    color: var(--lemon);
+}

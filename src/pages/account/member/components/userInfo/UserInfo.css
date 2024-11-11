@@ -1,0 +1,188 @@
+/* ------------------
+# profile Panner
+--------------------- */
+
+#memberAcount .profilePanner {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background-Size: cover;
+    background-Position: center;
+    background-Repeat: no-repeat;
+}
+
+#memberAcount .profilePanner .colorLayr {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, var(--lemon), rgba(255, 255, 255, 0));
+    opacity: .4;
+}
+
+#memberAcount .profilePanner .Lgimg,
+#memberAcount .profilePanner .smimg {
+    border-radius: var(--_15px);
+    border: 3px solid var(--dark-gray);
+    overflow: hidden;
+    background-color: var(--dark-gray);
+}
+
+#memberAcount .profilePanner .Lgimg {
+    width: 123px;
+    height: 123px;
+    position: absolute;
+    top: 100%;
+    left: 8%;
+    transform: translate(-8%, -100%);
+    margin-top: 50px;
+
+}
+
+#memberAcount .profilePanner .smimg {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    margin-top: 50px;
+}
+
+/* ------------------
+# Button Section
+--------------------- */
+#memberAcount .buttonSection .btnSection,
+#memberAcount .buttonSection .btnSectionoutLone {
+    cursor: pointer;
+    font-size: .8rem;
+    font-family: WorkSans-S;
+    border-radius: var(--_15px);
+    border: 2px solid var(--lemon);
+}
+
+#memberAcount .buttonSection .btnSection {
+    color: var(--black);
+    background-color: var(--lemon);
+}
+
+#memberAcount .buttonSection .btnSectionoutLone {
+    color: var(--white);
+}
+
+#memberAcount .buttonSection .reactIcons {
+    font-size: 1.1rem;
+}
+
+
+/* ------------------
+# user Info Section
+--------------------- */
+
+#memberAcount .userInfoSection span {
+    font-family: Rubik-B;
+    color: var(--white);
+    font-size: calc(100% + .65vw + .56vh);
+}
+
+#memberAcount .userInfoSection .VerifiedIcon {
+    color: var(--lemon);
+    font-size: 1.15rem;
+}
+
+#memberAcount .userInfoSection .userState .stateNumper,
+#memberAcount .userInfoSection .userState .stateName {
+    color: var(--white);
+}
+
+#memberAcount .userInfoSection .userState .stateNumper {
+    font-size: calc(100% + .55vw + .55vh);
+    font-family: SpaceMono-B;
+}
+
+#memberAcount .userInfoSection .userState .stateName {
+    font-size: calc(100% - .01vw - .01vh);
+    opacity: .8;
+    font-family: WorkSans-M;
+}
+
+/* -----------Btn SectionFor Smole Screen */
+#memberAcount .userInfoSection .smbuttonSection .btnSection,
+#memberAcount .smbuttonSection .btnSectionoutLone {
+    cursor: pointer;
+    font-size: .45rem;
+    font-family: WorkSans-S;
+    border-radius: var(--_15px);
+    border: 2px solid var(--lemon);
+}
+
+#memberAcount .smbuttonSection .btnSectionoutLone span {
+    font-size: .9rem;
+}
+
+#memberAcount .userInfoSection .smbuttonSection .btnSection {
+    color: var(--black);
+    background-color: var(--lemon);
+}
+
+#memberAcount .userInfoSection .smbuttonSection .btnSection span {
+    color: var(--black);
+}
+
+#memberAcount .userInfoSection .smbuttonSection .btnSectionoutLone {
+    color: var(--white);
+}
+
+#memberAcount .userInfoSection .smbuttonSection .reactIcons {
+    font-size: 1.1rem;
+}
+
+
+/* ------------------
+# user Bio
+--------------------- */
+#memberAcount .userBio .bioContant,
+#memberAcount .therdBart .userBio .bioTitle {
+    color: var(--white);
+}
+
+#memberAcount .userBio .bioTitle {
+    font-size: calc(100% - .01vw - .01vh);
+    font-family: SpaceMono-B;
+    opacity: .45;
+}
+
+#memberAcount .userBio .bioContant {
+    font-size: calc(100% + .01vw + .01vh);
+    font-family: WorkSans-R;
+    opacity: .85;
+}
+
+/* ------------------
+# user Links
+--------------------- */
+#memberAcount .userLinks .bioContant,
+#memberAcount .therdBart .userBio .bioTitle {
+    color: var(--white);
+}
+
+#memberAcount .userLinks .Title {
+    font-size: calc(100% - .01vw - .01vh);
+    font-family: SpaceMono-B;
+    opacity: .45;
+}
+
+#memberAcount .userLinks .Contant {
+    font-size: calc(100% + .45vw + .45vh);
+    color: var(--white);
+    opacity: .5;
+}
+
+#memberAcount .userLinks .Contant .linkIcon {
+    cursor: pointer;
+}
+
+#memberAcount .userLinks .Contant .linkIcon:hover {
+    color: var(--lemon);
+}

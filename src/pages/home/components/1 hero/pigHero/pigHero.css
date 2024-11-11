@@ -1,0 +1,88 @@
+#Hero {
+    margin-top: 4rem;
+}
+
+#Hero .heroTitle .F2 {
+    font-size: calc(100% + 1.8vw + 1.8vh) !important;
+}
+
+#Hero .F4 {
+    font-size: 1.06rem;
+}
+
+#Hero a {
+    font-size: 1rem;
+}
+
+#Hero .heroState .F6 {
+    font-size: 1.5rem;
+}
+
+#Hero .IoRocketOutline {
+    font-size: 1.1rem;
+}
+
+#Hero .btnTemp:hover .IoRocketOutline {
+    color: var(--lemon);
+}
+
+#Hero .viewerCard {
+    width: 90%;
+    padding: 2px;
+    background-color: var(--gray);
+    border-radius: var(--_10px);
+}
+
+#Hero .viewerCardImg {
+    background-color: var(--dark-gray);
+    border-radius: var(--_10px) var(--_10px) 0px 0px;
+}
+
+#Hero .viewerCardImg .heroImgg {
+    width: 300px;
+    height: 400px;
+    background-color: var(--dark-white);
+    transform: rotate3d(360, -110, -90, 33deg) rotateZ(12deg);
+    position: absolute;
+    z-index: 2;
+}
+
+#Hero .viewerCardImg .heroImgg .heroImggdeep {
+    background-color: var(--lemon);
+}
+
+#Hero .viewerCardImg .heroImggporder {
+    width: 300px;
+    height: 400px;
+    margin-left: 1.2rem;
+    margin-top: 1.2rem;
+    border: 4px solid var(--dark-white);
+    transform: rotate3d(360, -110, -90, 33deg) rotateZ(12deg);
+}
+
+#Hero .viewerCardImg .heroImgg .F3 {
+    font-size: 1.01rem;
+    color: var(--black);
+}
+
+#Hero .viewerCardImg .heroImgg .F4 {
+    font-size: .7rem;
+    color: var(--black);
+}
+
+#Hero .viewerCard .bartTow img {
+    border-radius: var(--_50px);
+}
+
+#Hero .viewerCard .bartTow .userinfo {
+    all: unset;
+    cursor: pointer;
+}
+
+#Hero .viewerCard .bartTow .F3 {
+    font-size: 1.1rem;
+}
+
+#Hero .viewerCard .F4 {
+    font-size: .8rem;
+}

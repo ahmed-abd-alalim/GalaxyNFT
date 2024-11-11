@@ -1,0 +1,120 @@
+/* NFTs */
+#NFTs {
+    display: flex;
+    background-color: var(--gray);
+    overflow: scroll;
+}
+
+/* ################################# */
+#NFTs .FilterSlider {
+    position: relative;
+}
+
+#NFTs .FilterSlider .FilterSliderDeep {
+    width: 100%;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    background-color: var(--dark-gray);
+    border-radius: var(--_10px);
+}
+
+#NFTs .FilterSlider .FilterSliderDeep .FilterSliderHeed {
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.288);
+}
+
+#NFTs .FilterSlider .FilterSliderDeep .bodyOfFilterSlider .FilterItemComponant .FilterItemBody>span {
+    cursor: pointer;
+    border: 1px solid var(--dark-white);
+    border-radius: var(--_5px);
+    font-size: .8rem;
+}
+
+#NFTs .FilterSlider .FilterSliderDeep .bodyOfFilterSlider .FilterItemComponant .FilterItemBody>span.active {
+    color: var(--black);
+    background-color: var(--lemon);
+    border: 1px solid var(--lemon);
+}
+
+/* ################################# */
+#NFTs .card * {
+    text-decoration: none;
+}
+
+#NFTs .card {
+    background-color: var(--dark-gray);
+    border-radius: var(--_20px);
+    overflow: hidden;
+}
+
+/* ################################# */
+#NFTs .card .CrdTools {
+    position: relative;
+    overflow: hidden;
+}
+
+
+#NFTs .card .card-text {
+    font-size: calc(100% + .05vw + .05vh);
+}
+
+#NFTs .card .userinfo {
+    all: unset;
+    cursor: pointer;
+}
+
+#NFTs .card .userinfo img {
+    border-radius: var(--_50px);
+}
+
+#NFTs .card .userinfo .F4 {
+    font-size: .9rem;
+    opacity: .9;
+}
+
+#NFTs .card .prodictInfo .F4 {
+    font-size: .8rem;
+    opacity: .4;
+}
+
+#NFTs .card .prodictInfo .F3 {
+    opacity: .9;
+    font-size: .9rem;
+}
+
+#NFTs .item a {
+    all: unset;
+}
+
+#NFTs .item img {
+    border-radius: var(--_20px);
+}
+
+#NFTs .item .collectionNum {
+    font-size: 1.2rem;
+    color: var(--black);
+    background-color: var(--lemon);
+    border-radius: var(--_20px);
+    cursor: pointer;
+    transition: .4s all;
+    font-family: Rubik-B;
+}
+
+#NFTs .item .F3 {
+    font-size: 1.2rem;
+}
+
+#NFTs .item .F4 {
+    font-size: .8rem;
+}
+
+#NFTs .LuMoveRight,
+#NFTs .LuMoveLeft {
+    font-size: 1.1rem;
+}
+
+#NFTs .btnTemp:hover {
+    color: var(--black);
+    background-color: var(--lemon);
+}

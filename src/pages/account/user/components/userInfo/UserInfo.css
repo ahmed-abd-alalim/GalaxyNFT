@@ -1,0 +1,204 @@
+/* ------------------
+# main
+--------------------- */
+
+#userAcount hr {
+    color: rgba(255, 255, 255, 0.459);
+    margin: 0;
+}
+
+/* ------------------
+# profile Panner
+--------------------- */
+
+#userAcount .profilePanner {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background-Size: cover;
+    background-Position: center;
+    background-Repeat: no-repeat;
+}
+
+#userAcount .profilePanner .colorLayr {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, var(--lemon), rgba(255, 255, 255, 0));
+    opacity: .4;
+}
+
+#userAcount .profilePanner .Lgimg,
+#userAcount .profilePanner .smimg {
+    border-radius: var(--_15px);
+    border: 3px solid var(--dark-gray);
+    overflow: hidden;
+    background-color: var(--dark-gray);
+}
+
+#userAcount .profilePanner .Lgimg {
+    width: 123px;
+    height: 123px;
+    position: absolute;
+    top: 100%;
+    left: 8%;
+    transform: translate(-8%, -100%);
+    margin-top: 50px;
+
+}
+
+#userAcount .profilePanner .smimg {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    margin-top: 50px;
+}
+
+/* ------------------
+# Button Section
+--------------------- */
+#userAcount .buttonSection .btnSection,
+#userAcount .buttonSection .btnSectionoutLone {
+    all: unset;
+    cursor: pointer;
+    font-size: .7rem;
+    font-family: WorkSans-S;
+    border-radius: var(--_15px);
+    border: 2px solid var(--lemon);
+}
+
+#userAcount .buttonSection .btnSectionoutLone span {
+    font-size: .8rem;
+}
+
+#userAcount .buttonSection .btnSection {
+    color: var(--black);
+    background-color: var(--lemon);
+}
+
+#userAcount .buttonSection .btnSectionoutLone {
+    color: var(--white);
+}
+
+#userAcount .buttonSection .reactIcons {
+    font-size: 1.1rem;
+}
+
+
+/* ------------------
+# user Info Section
+--------------------- */
+
+#userAcount .userInfoSection span {
+    font-family: Rubik-B;
+    color: var(--white);
+    font-size: calc(100% + .65vw + .56vh);
+}
+
+#userAcount .userInfoSection .VerifiedIcon {
+    color: var(--lemon);
+    font-size: 1.15rem;
+}
+
+#userAcount .userInfoSection .userState .stateNumper,
+#userAcount .userInfoSection .userState .stateName {
+    color: var(--white);
+}
+
+#userAcount .userInfoSection .userState .stateNumper {
+    font-size: calc(100% + .55vw + .55vh);
+    font-family: SpaceMono-B;
+}
+
+#userAcount .userInfoSection .userState .stateName {
+    font-size: calc(100% - .01vw - .01vh);
+    opacity: .8;
+    font-family: WorkSans-M;
+}
+
+/* -----------Btn SectionFor Smole Screen */
+#userAcount .userInfoSection .smbuttonSection .btnSection,
+#userAcount .smbuttonSection .btnSectionoutLone {
+    all: unset;
+    cursor: pointer;
+    font-size: .45rem;
+    font-family: WorkSans-S;
+    border-radius: var(--_15px);
+    border: 2px solid var(--lemon);
+}
+
+#userAcount .smbuttonSection .btnSectionoutLone span {
+    font-size: .9rem;
+}
+
+#userAcount .userInfoSection .smbuttonSection .btnSection {
+    color: var(--black);
+    background-color: var(--lemon);
+}
+
+#userAcount .userInfoSection .smbuttonSection .btnSection span {
+    color: var(--black);
+}
+
+#userAcount .userInfoSection .smbuttonSection .btnSectionoutLone {
+    color: var(--white);
+}
+
+#userAcount .userInfoSection .smbuttonSection .reactIcons {
+    font-size: 1.1rem;
+}
+
+
+/* ------------------
+# user Bio
+--------------------- */
+#userAcount .userBio .bioContant,
+#userAcount .therdBart .userBio .bioTitle {
+    color: var(--white);
+}
+
+#userAcount .userBio .bioTitle {
+    font-size: calc(100% - .01vw - .01vh);
+    font-family: SpaceMono-B;
+    opacity: .45;
+}
+
+#userAcount .userBio .bioContant {
+    font-size: calc(100% + .01vw + .01vh);
+    font-family: WorkSans-R;
+    opacity: .85;
+}
+
+/* ------------------
+# user Links
+--------------------- */
+#userAcount .userLinks .bioContant,
+#userAcount .therdBart .userBio .bioTitle {
+    color: var(--white);
+}
+
+#userAcount .userLinks .Title {
+    font-size: calc(100% - .01vw - .01vh);
+    font-family: SpaceMono-B;
+    opacity: .45;
+}
+
+#userAcount .userLinks .Contant {
+    font-size: calc(100% + .45vw + .45vh);
+    color: var(--white);
+    opacity: .5;
+}
+
+#userAcount .userLinks .Contant .linkIcon {
+    all: unset;
+    cursor: pointer;
+}
+
+#userAcount .userLinks .Contant .linkIcon:hover {
+    color: var(--lemon);
+}

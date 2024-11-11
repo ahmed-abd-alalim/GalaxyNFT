@@ -1,0 +1,30 @@
+/* item */
+#items .itemCATEGORY {
+    opacity: .5;
+    text-align: center;
+    width: 90%;
+    border-bottom: 2px solid var(--dark-gray);
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+#items .itemsNumpers {
+    width: 24px;
+    height: 24px;
+    background-color: var(--gray);
+    border-radius: 50%;
+    font-family: SpaceMono-R;
+    font-size: .8rem;
+    color: var(--lemon);
+}
+
+#items .navIcon {
+    font-size: calc(100% + .15vw + .15vh);
+    color: var(--lemon);
+}
+
+#items .itemCATEGORY.active {
+    opacity: .9;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.616);
+}

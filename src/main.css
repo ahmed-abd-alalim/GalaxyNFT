@@ -1,0 +1,201 @@
+/* ################
+     ROOT
+################*/
+
+:root {
+
+    /*-----colors*/
+    --lemon: #d7ef43;
+    --gray: #3b3b3b;
+    --dark-gray: #2b2b2b;
+    --white: #ffffff;
+    --dark-white: #f8f8f8;
+    --black: #000000;
+
+    /*-----border-raduis*/
+    --_5px: 5px;
+    --_10px: 10px;
+    --_15px: 15px;
+    --_20px: 20px;
+    --_50px: 50px;
+
+    /*-----border*/
+    --btn-border: 2px solid var(--lemon);
+
+    /*-----shadow*/
+}
+
+
+
+/* ################
+    FONTS
+################*/
+
+/*----RubikOne*/
+@font-face {
+    font-family: Rubik-B;
+    src: url(/fonts/rubik-one/Rubik-Bold.ttf);
+}
+
+@font-face {
+    font-family: RubikOne;
+    src: url(/fonts/rubik-one/RubikOne-Regular.ttf);
+}
+
+/*-----WorkSans*/
+@font-face {
+    font-family: WorkSans-S;
+    src: url(/fonts/Work_Sans/WorkSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: WorkSans-R;
+    src: url(/fonts/Work_Sans/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: WorkSans-M;
+    src: url(/fonts/Work_Sans/WorkSans-Medium.ttf);
+}
+
+/*-----SpaceMono*/
+@font-face {
+    font-family: SpaceMono-B;
+    src: url(/fonts/space-Mono/SpaceMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: SpaceMono-R;
+    src: url(/fonts/space-Mono/SpaceMono-Regular.ttf);
+}
+
+
+
+
+/* ################
+    TEMPLATES 
+################*/
+
+/*-----basic-template*/
+body {
+    user-select: none;
+    background-color: var(--dark-gray);
+    height: 100%;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+/*-----fonts*/
+.F1,
+.F2,
+.F3,
+.F4,
+.F5,
+.F6,
+.F7 {
+    all: unset;
+}
+
+.F1 {
+    color: var(--white);
+    font-family: Rubik-B;
+}
+
+.F2 {
+    color: var(--white);
+    font-family: RubikOne;
+    text-transform: capitalize;
+}
+
+.F3 {
+    color: var(--white);
+    font-family: WorkSans-S;
+}
+
+.F4 {
+    color: var(--dark-white);
+    font-family: WorkSans-R;
+}
+
+.F5 {
+    color: var(--white);
+    font-family: WorkSans-M;
+}
+
+.F6 {
+    color: var(--white);
+    font-family: SpaceMono-B;
+}
+
+.F7 {
+    color: var(--white);
+    font-family: SpaceMono-R;
+}
+
+/*-----text Size */
+.textS1 {
+    font-size: calc(100% + 1.1vw + 1.1vh) !important;
+}
+
+.textS2 {
+    font-size: calc(100% + .1vw + .1vh) !important;
+}
+
+.textS3 {
+    font-size: calc(90% + .001vw + .001vh) !important;
+}
+
+
+/*-----colors*/
+.lemon {
+    color: var(--lemon);
+}
+
+
+/*-----btn*/
+.btnTemp,
+.btnTemp-outLine {
+    all: unset;
+    font-size: .8rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: WorkSans-S;
+    border: var(--btn-border);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btnTemp {
+    color: var(--black);
+    background-color: var(--lemon);
+    border-radius: var(--_10px);
+}
+
+.btnTemp-outLine {
+    color: var(--white);
+    background-color: var(--dark-gray);
+    border-radius: var(--_15px);
+}
+
+.btnTemp:hover {
+    color: var(--white);
+    background-color: var(--dark-gray);
+}
+
+.btnTemp-outLine:hover {
+    color: var(--black);
+    background-color: var(--lemon);
+}

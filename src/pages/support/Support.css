@@ -1,0 +1,184 @@
+/* ########################
+-> subbort Search Section
+########################### */
+#Support .subbortSearchSection>span {
+    font-family: Rubik-B;
+    color: var(--white);
+    opacity: .9;
+    font-size: calc(100% + 1vw + 1vh);
+}
+
+#Support .subbortSearchSection .inbutSection {
+    background-color: var(--gray);
+    border-radius: var(--_5px);
+    font-size: 1.15rem;
+}
+
+#Support .subbortSearchSection .inbutSection .searchIcon {
+    font-size: 1.3em;
+    color: var(--dark-white);
+    opacity: .5;
+}
+
+#Support .subbortSearchSection .inbutSection input {
+    all: unset;
+    width: 100%;
+    text-align: start;
+    font-family: WorkSans-M;
+    box-sizing: border-box;
+    padding-right: 8px;
+    color: var(--white);
+    font-size: 1.1rem;
+}
+
+#Support .subbortSearchSection .inbutSection input::placeholder {
+    font-size: .9rem;
+}
+
+#Support .subbortSearchSection .inbutSection>span {
+    cursor: pointer;
+    background-color: var(--lemon);
+    border-radius: var(--_5px);
+    font-family: WorkSans-M;
+    font-size: .9rem;
+    margin: 3px;
+}
+
+#Support .subbortSearchSection .inbutSection>span:hover {
+    filter: brightness(.95);
+}
+
+/* ########################
+-> hr Title
+########################### */
+#Support .hrTitle {
+    color: var(--white);
+    font-size: calc(100% + .001vw - .1vh);
+    font-family: WorkSans-R;
+    opacity: .6;
+}
+
+/* ########################
+-> support Type
+########################### */
+#owlSupport {
+    -ms-touch-action: auto;
+    touch-action: auto;
+}
+
+#Support .owl-theme .owl-controls .owl-buttons div {
+    display: none;
+}
+
+#Support .owl-theme .owl-controls .owl-page span {
+    background: var(--lemon);
+    margin-top: 15px;
+}
+
+#Support .supportType .item {
+    cursor: pointer;
+    margin: 0px 5px;
+    background-color: var(--gray);
+    border-radius: var(--_5px);
+    color: var(--white);
+    border: 1px solid var(--gray);
+    transition: .2s all;
+}
+
+#Support .supportType .item:hover {
+    border: 1px solid var(--lemon);
+}
+
+#Support .supportType .item .supportTypeIcon {
+    font-size: 2.2rem;
+    opacity: .5;
+    color: var(--lemon);
+}
+
+#Support .supportType .item .supportTypeIcon.rev {
+    transform: scaleX(-1);
+}
+
+#Support .supportType .item>span {
+    text-transform: capitalize;
+    font-family: WorkSans-R;
+    font-size: calc(100% + .001vw - .09vh);
+    opacity: .7;
+}
+
+/* ########################
+-> pricing Section
+########################### */
+#Support .pricingSection .FontOne {
+    font-family: Rubik-B;
+    color: var(--white);
+    opacity: .8;
+    font-size: calc(100% + .6vw + .6vh);
+}
+
+#Support .pricingSection .FontTow {
+    color: var(--white);
+    font-size: calc(100% + .001vw - .1vh);
+    font-family: WorkSans-R;
+    opacity: .4;
+}
+
+/* ########################
+-> question Section
+########################### */
+#Support .questionSection .faq-item {
+    border-radius: var(--_5px);
+    opacity: .9;
+    background-color: var(--gray);
+}
+
+#Support .questionSection .faq-item summary {
+    padding: 15px;
+    background-color: var(--gray);
+    border-radius: var(--_5px);
+    cursor: pointer;
+    color: var(--white);
+    font-size: calc(100% + .1vw - .1vh);
+    font-family: WorkSans-S;
+}
+
+#Support .questionSection .icon {
+    font-size: 1.2rem;
+    color: var(--lemon);
+}
+
+#Support .questionSection .faq-item p {
+    padding: 0px 10px 10px 10px;
+    margin: 0;
+    color: var(--white);
+    opacity: .7;
+    font-size: calc(100% + .001vw - .2vh);
+    font-family: WorkSans-M;
+}
+
+/* ########################
+-> contact Section
+########################### */
+#Support .contactSection .phonSection,
+#Support .contactSection .mailSection {
+    background-color: var(--gray);
+    border-radius: var(--_5px);
+    color: var(--white);
+    opacity: .8;
+}
+
+#Support .contactSection .ploedText {
+    font-family: WorkSans-S;
+}
+
+#Support .contactSection .sendText {
+    font-family: WorkSans-M;
+    opacity: .7;
+    font-size: calc(100% + .001vw - .1vh);
+}
+
+#Support .contactSection .helpIcon {
+    font-size: 2rem;
+    opacity: .7;
+    color: var(--lemon);
+}

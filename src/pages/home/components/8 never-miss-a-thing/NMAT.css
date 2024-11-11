@@ -1,0 +1,68 @@
+#joinOur .row {
+    background-color: var(--gray);
+    border-radius: var(--_20px);
+}
+
+#joinOur .row img,
+#joinOur .row .img {
+    border-radius: var(--_20px);
+}
+
+#joinOur .row .F2 {
+    font-size: 2.3rem;
+}
+
+#joinOur .row .F4 {
+    font-size: 1.2rem;
+    opacity: .8;
+}
+
+#joinOur .emailComponant {
+    background-color: var(--white);
+    border-radius: var(--_20px)
+}
+
+#joinOur .emailComponant input {
+    all: unset;
+    width: 55%;
+    font-family: WorkSans-R;
+}
+
+#joinOur .emailComponant input::placeholder {
+    font-size: .9rem;
+    color: var(--black);
+}
+
+#joinOur .emailComponant .btnTemp {
+    font-size: 1rem;
+    width: 45%;
+    border-radius: var(--_20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+
+#joinOur .emailComponantSmole input {
+    all: unset;
+    width: 95%;
+    font-family: WorkSans-R;
+    background-color: var(--white);
+    border-radius: var(--_20px)
+}
+
+#joinOur .emailComponantSmole input::placeholder {
+    font-size: .9rem;
+    color: var(--black);
+}
+
+#joinOur .emailComponantSmole .btnTemp {
+    font-size: 1rem;
+    width: 100%;
+    border-radius: var(--_20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}

@@ -1,0 +1,115 @@
+/* Marketplace  */
+#Marketplace {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#Marketplace .searchComponant {
+    border-radius: var(--_10px);
+    border: 2px solid rgba(255, 255, 255, 0.288);
+}
+
+#Marketplace input {
+    all: unset;
+    width: auto;
+    font-family: WorkSans-R;
+    color: var(--dark-white);
+}
+
+#Marketplace input::placeholder {
+    font-size: .9rem;
+    font-family: WorkSans-S;
+    color: rgba(255, 255, 255, 0.288);
+}
+
+#Marketplace .FiSearch {
+    font-size: 1.7rem;
+    color: rgba(255, 255, 255, 0.288);
+    opacity: .8;
+}
+
+#Marketplace .searchComponant:hover,
+#Marketplace .searchComponant:focus {
+    border: 2px solid rgba(255, 255, 255, 0.492);
+}
+
+#Marketplace .searchComponant:hover .FiSearch,
+#Marketplace .searchComponant:focus .FiSearch {
+    color: rgba(255, 255, 255, 0.492);
+}
+
+#Marketplace .fristfilterButton {
+    cursor: pointer;
+    border-radius: var(--_10px);
+    border: 2px solid rgba(255, 255, 255, 0.288);
+}
+
+#Marketplace .fristfilterButton .VscSettings {
+    font-size: 1.4rem;
+    color: var(--lemon);
+    opacity: .8;
+}
+
+#Marketplace .fristfilterButton:hover,
+#Marketplace .fristfilterButton:focus {
+    border: 2px solid rgba(255, 255, 255, 0.492);
+}
+
+#Marketplace .filterButton {
+    cursor: pointer;
+    opacity: .5;
+    border: 2px solid rgba(255, 255, 255, 0.586);
+    border-radius: var(--_15px);
+}
+
+#Marketplace .filterButton .VscSettings {
+    font-size: 1.3rem;
+    color: var(--lemon);
+}
+
+
+#Marketplace .owl-theme .owl-controls .owl-buttons div {
+    display: none;
+}
+
+#Marketplace .owl-theme .owl-controls .owl-page {
+    display: none;
+}
+
+#owl-filter {
+    overflow: hidden;
+}
+
+#Marketplace #owl-filter {
+    -ms-touch-action: auto;
+    touch-action: auto;
+}
+
+#owl-filter .item {
+    cursor: pointer;
+    margin: 5px;
+    text-align: center;
+    opacity: .2;
+    border: 2px solid rgba(255, 255, 255, 0.586);
+    border-radius: var(--_15px);
+}
+
+#owl-filter .item:hover {
+    opacity: .5;
+}
+
+#owl-filter .item .F4 {
+    text-transform: capitalize;
+}
+
+
+
+
+.MarketplaceHR {
+    color: rgba(255, 255, 255, 0.223);
+}
+
+
+.MarketplaceHRtow {
+    color: rgba(0, 0, 0, 0.129);
+}

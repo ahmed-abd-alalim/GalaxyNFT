@@ -1,0 +1,58 @@
+#topCreators .F2 {
+    font-size: 1.7rem;
+}
+
+#topCreators .IoRocketOutline {
+    font-size: 1.1rem;
+    color: var(--lemon);
+}
+
+#topCreators .btnTemp-outLine {
+    font-size: .9rem;
+}
+
+#topCreators .btnTemp-outLine:hover .IoRocketOutline {
+    color: var(--black);
+}
+
+#topCreators .row .componantCreator {
+    all: unset;
+    cursor: pointer;
+    position: relative;
+    background-color: var(--gray);
+    border-radius: var(--_20px);
+}
+
+#topCreators .row .componantCreator .ratedNump {
+    width: 28px;
+    height: 28px;
+    background-color: var(--dark-gray);
+    border-radius: var(--_50px);
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    transform: translate(50%, 50%);
+}
+
+#topCreators .row .componantCreator .ratedNump .F7 {
+    font-size: .8rem;
+    opacity: .4;
+}
+
+#topCreators .row .componantCreator img {
+    border-radius: var(--_50px);
+}
+
+#topCreators .row .componantCreator .creatorInfo>.F3 {
+    font-size: 1.2rem;
+    margin-bottom: .1rem;
+}
+
+#topCreators .row .componantCreator .creatorInfo .F4 {
+    opacity: .6;
+}
+
+#topCreators .row .componantCreator .creatorInfo .F3cus {
+    opacity: .8;
+}

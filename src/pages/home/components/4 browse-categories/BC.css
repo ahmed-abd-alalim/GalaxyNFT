@@ -1,0 +1,40 @@
+#Categories .F2 {
+    font-size: 1.7rem;
+}
+
+#Categories a {
+    text-decoration: none;
+}
+
+#Categories .card {
+    overflow: hidden;
+    background-color: var(--gray);
+    border-radius: var(--_20px);
+    transition: .4s;
+    cursor: pointer;
+}
+
+#Categories .card .cardImg {
+    position: relative;
+    overflow: hidden;
+}
+
+#Categories .card img {
+    opacity: .9;
+    filter: blur(4.5px);
+    border-radius: var(--_20px) var(--_20px) 0px 0px;
+}
+
+#Categories .card .cardImg .cardIcon {
+    color: var(--white);
+    font-size: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+
+}
+
+#Categories .card .card-text {
+    font-size: 1rem;
+}

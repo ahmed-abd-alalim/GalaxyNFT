@@ -1,0 +1,80 @@
+#rankings .headRow .hidRowDeep {
+    cursor: pointer;
+    font-family: WorkSans-S;
+    font-size: calc(100% - .1vw - .1vh);
+    color: var(--white);
+    opacity: .5;
+    transition: .2s all;
+    border-bottom: 1px solid var(--dark-gray);
+}
+
+#rankings .headRow .hidRowDeep.active {
+    opacity: 1;
+    border-bottom: 1px solid var(--white);
+}
+
+#rankings .parantRow {
+    border-radius: var(--_15px);
+    border: 1px solid rgba(255, 255, 255, 0.288);
+}
+
+#rankings .parantRow span {
+    font-family: SpaceMono-R;
+    text-transform: capitalize;
+    color: var(--dark-white);
+    opacity: .5;
+}
+
+#rankings .cheldRow {
+    border-radius: var(--_15px);
+    background-color: var(--gray);
+}
+
+#rankings .cheldRow .userInfo {
+    cursor: pointer;
+}
+
+#rankings .cheldRow a {
+    all: unset;
+}
+
+#rankings .cheldRow span {
+    font-size: calc(100% - .1vw - .1vh);
+    font-family: SpaceMono-R;
+    text-transform: capitalize;
+    color: var(--dark-white);
+}
+
+#rankings .cheldRow img {
+    border-radius: 50%;
+}
+
+#rankings .cheldRow .rankingsImg {
+    opacity: .95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rankings .cheldRow .rankingsNumper {
+    width: 30px;
+    height: 30px;
+    background-color: var(--dark-gray);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rankings .cheldRow .rankingsNumper span {
+    font-size: .75rem;
+    opacity: .4;
+}
+
+#rankings .cheldRow .changeItem .up {
+    color: #00AC4F;
+}
+
+#rankings .cheldRow .changeItem .down {
+    color: #ac0000;
+}

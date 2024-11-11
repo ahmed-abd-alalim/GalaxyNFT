@@ -1,0 +1,60 @@
+#DisNewNFTs .F2 {
+    font-size: 1.7rem;
+}
+
+#DisNewNFTs .LuEye {
+    font-size: 1.1rem;
+    color: var(--lemon);
+}
+
+#DisNewNFTs .btnTemp-outLine {
+    font-size: .9rem;
+}
+
+#DisNewNFTs .btnTemp-outLine:hover .LuEye {
+    color: var(--black);
+}
+
+#DisNewNFTs .card * {
+    text-decoration: none;
+}
+
+#DisNewNFTs .card {
+    background-color: var(--gray);
+    border-radius: var(--_20px);
+    overflow: hidden;
+}
+
+/* ################################# */
+#DisNewNFTs .card .CrdTools {
+    position: relative;
+    overflow: hidden;
+}
+
+#DisNewNFTs .card .card-text {
+    font-size: 1.2rem;
+}
+
+#DisNewNFTs .card .userinfo {
+    all: unset;
+    cursor: pointer;
+}
+
+#DisNewNFTs .card .userinfo img {
+    border-radius: var(--_50px);
+}
+
+#DisNewNFTs .card .userinfo .F4 {
+    font-size: .9rem;
+    opacity: .9;
+}
+
+#DisNewNFTs .card .prodictInfo .F4 {
+    font-size: .8rem;
+    opacity: .4;
+}
+
+#DisNewNFTs .card .prodictInfo .F3 {
+    opacity: .9;
+    font-size: .9rem;
+}

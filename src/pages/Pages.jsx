@@ -1,0 +1,10 @@
+export { default as Home } from "./home/Home";
+export { default as NFTs } from "./nfts/NFTs";
+export { default as Rankings } from "./rankings/Rankings";
+export { default as Support } from "./support/Support";
+export { default as SignUp } from "./access/signup/SignUp";
+export { default as LogIn } from "./access/login/LogIn";
+export { default as User } from "./account/user/User";
+export { default as Member } from "./account/member/Member";
+export { default as NFTLab } from "./nftLab/NFTLab";
+export { default as Product } from "./product/Product";

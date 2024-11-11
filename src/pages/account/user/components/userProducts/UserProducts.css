@@ -1,0 +1,148 @@
+/* ------------------
+# product Nave
+--------------------- */
+#UserProducts .productNave .parontComponant {
+    margin: 0;
+    margin: auto;
+    border-bottom: 2px solid var(--dark-gray);
+    cursor: pointer;
+    transition: .3s all;
+
+}
+
+#UserProducts .productNave .parontComponant .naveItemTitle,
+#UserProducts .productNave .parontComponant .naveItenNumper,
+#UserProducts .productNave .parontComponant .navIcon {
+    opacity: .6 !important;
+}
+
+#UserProducts .productNave .parontComponant .naveItemTitle {
+    font-size: calc(100% + .09vw + .09vh);
+    color: var(--white);
+    text-transform: capitalize;
+    font-family: WorkSans-S;
+}
+
+#UserProducts .productNave .parontComponant .naveItenNumper {
+    width: 24px;
+    height: 24px;
+    background-color: var(--gray);
+    border-radius: 50%;
+    font-family: SpaceMono-R;
+    font-size: .8rem;
+    color: var(--lemon);
+}
+
+#UserProducts .productNave .parontComponant .navIcon {
+    font-size: calc(100% + .15vw + .15vh);
+    color: var(--lemon);
+}
+
+#UserProducts .productNave .parontComponant.active {
+    border-bottom: 2px solid var(--white);
+}
+
+#UserProducts .productNave .parontComponant.active .naveItemTitle,
+#UserProducts .productNave .parontComponant.active .naveItenNumper,
+#UserProducts .productNave .parontComponant.active .navIcon {
+    opacity: 1 !important;
+}
+
+
+/* ------------------
+# product Cart Componants
+--------------------- */
+#UserProducts .productCartComponant {
+    background-color: var(--gray);
+    margin-bottom: 2px;
+}
+
+
+#UserProducts .productCartComponant .nftLab .card .cardBorderStyle {
+    height: 100%;
+    border: 2px dashed var(--lemon);
+    border-radius: var(--_20px);
+    color: var(--white);
+    font-size: 1.7rem;
+}
+
+
+/* -----------NFTs */
+#UserProducts .productCartComponant .card * {
+    text-decoration: none;
+}
+
+#UserProducts .productCartComponant .card {
+    background-color: var(--dark-gray);
+    border-radius: var(--_20px);
+    overflow: hidden;
+}
+
+#UserProducts .productCartComponant .card .CrdTools {
+    position: relative;
+    overflow: hidden;
+}
+
+#UserProducts .productCartComponant .card .card-text {
+    font-size: calc(100% + .05vw + .05vh);
+}
+
+#UserProducts .productCartComponant .card .userinfo {
+    all: unset;
+    cursor: pointer;
+}
+
+#UserProducts .productCartComponant .card .userinfo img {
+    border-radius: var(--_50px);
+}
+
+#UserProducts .productCartComponant .card .userinfo .F4 {
+    font-size: .9rem;
+    opacity: .9;
+}
+
+#UserProducts .productCartComponant .card .prodictInfo .F4 {
+    font-size: .8rem;
+    opacity: .4;
+}
+
+#UserProducts .productCartComponant .card .prodictInfo .F3 {
+    opacity: .9;
+    font-size: .9rem;
+}
+
+/* -----------collection */
+#UserProducts .productCartComponant .item a {
+    all: unset;
+}
+
+#UserProducts .productCartComponant .item img {
+    border-radius: var(--_20px);
+}
+
+#UserProducts .productCartComponant .item .collectionNum {
+    font-size: 1.2rem;
+    color: var(--black);
+    background-color: var(--lemon);
+    border-radius: var(--_20px);
+    cursor: pointer;
+    transition: .4s all;
+}
+
+#UserProducts .productCartComponant .item .F3 {
+    font-size: 1.2rem;
+}
+
+#UserProducts .productCartComponant .item .F4 {
+    font-size: .8rem;
+}
+
+#UserProducts .productCartComponant .LuMoveRight,
+#UserProducts .productCartComponant .LuMoveLeft {
+    font-size: 1.1rem;
+}
+
+#UserProducts .productCartComponant .btnTemp:hover {
+    color: var(--black);
+    background-color: var(--lemon);
+}

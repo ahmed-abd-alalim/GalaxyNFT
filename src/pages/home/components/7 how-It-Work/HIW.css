@@ -1,0 +1,21 @@
+#howItWork .F2 {
+    font-size: 1.7rem;
+}
+
+#howItWork .card-img-style {
+    background-color: var(--gray);
+    border-radius: var(--_20px);
+}
+
+#howItWork .card-img-style img {
+    width: 82%;
+}
+
+#howItWork .card-img-style .F3 {
+    font-size: 1.15rem;
+}
+
+#howItWork .card-img-style .F4 {
+    font-size: .9rem;
+    opacity: .8;
+}
