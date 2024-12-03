@@ -99,7 +99,7 @@ const Footer = () => {
         <div className="d-flex justify-content-center copyriter py-4">
           <p className="F3">
             © 2024 Galaxy NFT. All Right Reserved by
-            <a href="https://ahmedabdalalim-482c3.web.app" target="_blank">
+            <a href="https://ahmedabdalalim.pages.dev/" target="_blank">
               <img
                 src="https://raw.githubusercontent.com/AhmedAbdAlalim-3A/AhmedAbdAlalim-3A/main/assets/3A.png"
                 alt="3A"

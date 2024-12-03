@@ -45,7 +45,7 @@ const Presentation = () => {
         <span className="prWords">
           <span className="lemon d-block mb-1 text-uppercase">Pages</span>
           home - market place - users Rankings - support - product page - user
-          Acount - member acount - login - singup
+          Account - member account - login - singup
         </span>
       ),
     },
