@@ -92,7 +92,7 @@ const Presentation = () => {
           <span className="lemon d-block mb-2">Hire me</span>
           <div className="d-flex justify-content-center">
             <a
-              href="https://ahmedabdalalim-482c3.web.app"
+              href="https://ahmedabdalalim.pages.dev"
               className="socialIcon d-flex justify-content-center align-items-center"
             >
               <svg
