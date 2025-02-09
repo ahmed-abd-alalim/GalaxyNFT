@@ -129,9 +129,9 @@ const SomleNavbar = ({ rowData }) => {
         <div className="d-flex justify-content-center mb-4">
           <p className="F3">
             © 2024 Galaxy NFT. All Right Reserved by
-            <a href="https://ahmedabdalalim.pages.dev/" target="_blank">
+            <a href="https://ahmedabdalalim.pages.dev" target="_blank">
               <img
-                src="https://raw.githubusercontent.com/AhmedAbdAlalim-3A/AhmedAbdAlalim-3A/main/assets/3A.png"
+                src="https://raw.githubusercontent.com/ahmed-abd-alalim/ahmed-abd-alalim/main/assets/3A.png"
                 alt="3A"
                 width="18px"
               />
