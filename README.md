@@ -32,7 +32,7 @@ To install **GalaxyNFT**, follow these steps:
 Windows:
 
 ```bash
-git clone https://github.com/AhmedAbdAlalim-3A/GalaxyNFT.git
+git clone https://github.com/ahmed-abd-alalim/GalaxyNFT.git
 cd GalaxyNFT
 npm i
 npm start
