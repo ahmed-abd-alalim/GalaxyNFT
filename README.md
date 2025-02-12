@@ -13,11 +13,14 @@ GalaxyNFT is a fully responsive eCommerce NFT website template, designed to work
 
 ## programming language and tools
 
+<p>
    <a href="#">
     <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,react,vscode,ps,&perline=7" />
    </a>
+</p>
 
 ## Pages
+
 * 🏠 Home – Stunning landing page for NFTs
 * 🛍 Marketplace – Browse and buy NFTs
 * 🏆 User Rankings – Top NFT collectors & sellers
@@ -28,6 +31,7 @@ GalaxyNFT is a fully responsive eCommerce NFT website template, designed to work
 * 🔑 Login – Secure authentication
 * 📝 Signup – New user registration
 
+
 ## Features
 
 <p>✅ Fully Responsive – Adapts to all screen sizes</p>
@@ -37,11 +41,13 @@ GalaxyNFT is a fully responsive eCommerce NFT website template, designed to work
 <p>✅ Optimized Performance – Lightweight and fast loading</p>
 <p>✅ Dynamic NFT Listings – Showcase NFT collections dynamically</p>
 
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
 - [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+
 
 ## Installing GalaxyNFT
 
@@ -55,6 +61,7 @@ cd GalaxyNFT
 npm i
 npm start
 ```
+
 
 ## Contact
 
