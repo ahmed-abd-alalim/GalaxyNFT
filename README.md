@@ -1,5 +1,5 @@
 <div align="center">
-<h1 align="center">GalaxyNFT - GalaxyNFT NFTs ecommerce React+vit website</h1>
+<h1 align="center">🌌 GalaxyNFT – Responsive eCommerce NFT Website Template</h1>
 GalaxyNFT is a fully responsive ecommerce NFTs  website template, responsive for all devices, built using HTML, CSS, JavaScript, Bootstrap 5 and React+Vite.
 <br />
 <br />
