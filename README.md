@@ -9,7 +9,7 @@ GalaxyNFT is a fully responsive ecommerce NFTs  website template, responsive for
 
 ## Demo
 
-![Ocazion Desktop Demo](./website-demo-image/GalaxyNFTPanen.jpg "Desktop Demo")
+![GalaxyNFT Desktop Demo](./website-demo-image/GalaxyNFTPanen.jpg "Desktop Demo")
 
 ## programming language and tools
 
@@ -42,4 +42,4 @@ npm start
 
 <p align="left">
   <a href="https://www.linkedin.com/in/ahmed-abd-alalim-286768299/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px" target="_blank"></a>
-<!--   <a href="https://github.com/Death-Mask" target="_blank"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=whit style="border-radius: 30px" target="_blank"></a> -->
+</p>
