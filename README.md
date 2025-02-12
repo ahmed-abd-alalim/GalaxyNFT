@@ -13,11 +13,9 @@ GalaxyNFT is a fully responsive eCommerce NFT website template, designed to work
 
 ## programming language and tools
 
-<p>
    <a href="#">
     <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,react,vscode,ps,&perline=7" />
    </a>
-</p>
 
 ## Pages
 * 🏠 Home – Stunning landing page for NFTs
