@@ -19,12 +19,12 @@ GalaxyNFT is a fully responsive eCommerce NFT website template, designed to work
    </a>
 </p>
 ## Features
-✅ Fully Responsive – Adapts to all screen sizes
-✅ React + Vite – Fast and efficient development setup
-✅ Bootstrap 5 – Modern and flexible UI components
-✅ Dark Mode Support – Trendy and easy on the eyes
-✅ Optimized Performance – Lightweight and fast loading
-✅ Dynamic NFT Listings – Showcase NFT collections dynamically
+<p>✅ Fully Responsive – Adapts to all screen sizes</p>
+<p>✅ React + Vite – Fast and efficient development setup</p>
+<p>✅ Bootstrap 5 – Modern and flexible UI components</p>
+<p>✅ Dark Mode Support – Trendy and easy on the eyes</p>
+<p>✅ Optimized Performance – Lightweight and fast loading</p>
+<p>✅ Dynamic NFT Listings – Showcase NFT collections dynamically</p>
 
 ## Prerequisites
 
