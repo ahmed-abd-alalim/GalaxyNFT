@@ -77,7 +77,7 @@ const Presentation = () => {
               <FaBehance />
             </a>
             <a
-              href="https://github.com/AhmedAbdAlalim-3A"
+              href="https://github.com/ahmed-abd-alalim"
               className="socialIcon d-flex justify-content-center align-items-center"
             >
               <BsGithub />
