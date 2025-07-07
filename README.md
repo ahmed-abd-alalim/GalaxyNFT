@@ -62,7 +62,7 @@ Windows:
 git clone https://github.com/ahmed-abd-alalim/GalaxyNFT.git
 cd GalaxyNFT
 npm i
-npm start
+npm run dev
 ```
 
 
