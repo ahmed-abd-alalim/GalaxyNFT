@@ -160,7 +160,7 @@ const Presentation = () => {
             )}
             <div className="ownerImg">
               <img
-                src="https://media.licdn.com/dms/image/v2/D4D03AQFg7ZW3iDiWkw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698837079053?e=2147483647&v=beta&t=8kWIHpt6d2Q24JbzJkjfb6RpiEFDi-EZuxxE9lBHOx8"
+                src="https://avatars.githubusercontent.com/u/122975937"
                 alt="ahmed abd alalime"
                 width="100%"
               />
